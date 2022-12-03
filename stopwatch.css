@@ -1,0 +1,39 @@
+body{
+    background-image: url(stopwatch.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.stopwatch{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    color: red;
+    font-size: 30px;
+}
+button{
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    border: 5px groove red;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    width: 150px;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.stopwatch:hover{
+    background-color: dimgray;
+}
+h1,p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
